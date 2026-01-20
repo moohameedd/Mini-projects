@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+}
+body{
+    margin: 0;
+}
+.cover{
+    background-image: url(images/cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 80px 0px;
+}
+.toptitle{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 4;
+}
+.title{
+    font-size: 50px;
+    color: white;
+    text-transform: capitalize;
+}
+.des{
+    font-size: 18px;
+    color: white;
+}
+.btn{
+    background-color: #5635DD;
+    color: white;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    margin-top: 50px;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: transparent;
+    color: blueviolet;
+
+}
+
+.div2{
+    display: flex;
+}
+
+.d1{
+    width: 50%;
+    margin: 50px;
+}
+.d2{
+    margin: 50px;
+    width: 50%;
+}
+span{
+    color: blueviolet;
+}
+tr{
+    border-radius: 5px;
+}
+h4{
+    text-align: center;
+}
+.table{
+    width: 100%;
+    text-align: center;
+}
+tr{
+    text-align: center;
+    border: 1px solid black;
+}
+table{
+    text-align: center;
+    background-color: rgb(248, 235, 235);
+    margin: 5px 100px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px gray;
+
+    
+    
+}
+td{
+    text-align: center;
+    padding: 20px;
+}
+h4{
+    font-size: 40px;
+    font-weight: 30px;
+}
+th{
+    border-radius: 5px 5px 0px 0px;
+    background-color: rgb(204, 155, 251);
+    height: 50px;
+}
+tbody{
+    background-color: rgb(248, 235, 235);
+    
+    border: none;
+}
+.btn2{
+    width: 220px;
+    background-color: rgb(99, 99, 255);
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+}
+.btn2:hover{
+
+    background-color: transparent;
+    color: blueviolet;
+}
+.form{
+    text-align: center;
+    background-color: rgb(243, 233, 253);
+}
+.forminput{
+    width: 550px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px gray;
+    border: 1px;
+}
+textarea{
+    width: 550px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px gray;
+    border: 1px;
+    margin: 10px ;
+}
+footer{
+    background-color: rgb(162, 105, 215);
+    text-align: center;
+    color: white;
+    margin-top: -16px;
+    height: 30px;
+}
+@media only screen and (max-width:600px){
+    .table{
+        overflow-x: scroll;
+
+    }
+    .div2{
+        flex-direction: column;
+    }
+    .div2>div{
+        width: 100%;
+    }
+    #mm{
+        width: 90%;
+    }
+}
