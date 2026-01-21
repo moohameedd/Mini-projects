@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+.home{
+    color: white;
+    height: 100vh;
+    background-color: #0162be;
+
+}
+.container{
+    margin: 0 7rem;
+    height: 100%;
+}
+nav>img{
+    width: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+nav ul a{
+    color: white;
+    padding: 20px;
+}
+.home .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70%;
+}
+.home .content img{
+    width: 220px;
+}
+.home .content .text h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+span{
+    font-size: 70px;
+}
+.home .content .text p{
+    font-weight: 300;
+    margin-bottom: 30px;
+    line-height: 1.4;
+    width: 60%;
+}
+.btn{
+    font-size: 14px;
+    padding: 10px 15px;
+    background-color: white;
+    color:black;
+    border-radius: 30px;
+}
+.btn:hover{
+    background-color: transparent;
+    color:white;
+    border: 1px solid black;
+}
+
+.social{
+    margin-left: 3rem;
+
+}
+.social i{
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+}
+.typesp{
+    display: block;
+    width: 100px;
+    margin: auto;
+}
